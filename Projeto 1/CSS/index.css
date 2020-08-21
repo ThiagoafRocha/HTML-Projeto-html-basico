@@ -1,0 +1,292 @@
+html{
+    font-size: 100%;
+}
+
+.subtitulo-principal{
+    text-align: center;
+    color: rgba(255,255,255,0.7);
+}
+
+
+.titulo-principal{
+    background-image: linear-gradient(to bottom, #F00, #888, #000);
+    background-size: 100% 200px;
+    background-color: #851944;
+    background-repeat: no-repeat;
+
+}
+
+.titulo-principal h1{
+    color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 3px 3px #000;
+    font-family: "Open Sans Serif" , sans-serif;
+}
+
+.foto-home {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    box-shadow: 0 0 1em #000;
+}
+
+header ul{
+    perspective: 13px;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.palavra-home{
+    font-size: 400%;
+}
+
+.eficiencia{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-family: "Shadows Into Light";
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    transform: translate(-50%, -50%) rotate(-10deg) translateZ(-3px);
+    opacity: 0.8;
+}
+
+.boas-praticas{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-family: "Shadows Into Light";
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(1px);
+}
+
+.codigo-limpo{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-family: "Shadows Into Light";
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%) rotate(7deg) translateZ(1px);
+}
+
+.css3{
+    opacity: 0.2;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-family: "Shadows Into Light";
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%,-50%) rotate(-7deg) translateZ(-5px);
+}
+
+.html5{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-family: "Shadows Into Light";
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: rotate(9deg);
+}
+
+.link-banner{
+    box-sizing: border-box;
+    width: 40ch;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.0;
+    background-color: #3C1D3D;
+    color: #FFF;
+    text-decoration: none; 
+    border: 0.2em solid #000;
+    font-family: sans-serif;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 1.0rem 1.5rem;
+    transform-origin: 0 0;
+    transform: translate(12em,-5em) rotate(45deg);
+
+}
+
+/*body*/
+.saudacao p {
+    font-size: 1.5em;
+    color: #99A;
+    line-height: 1;
+    padding: 2em;
+}
+
+.saudacao-inicio {
+    font-size: 3em;
+    color: #889;
+}
+
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+
+.saudacao strong {
+    font-size: 2em;
+    color: #000;
+}
+
+.saudacao em {
+    color: #851944;
+    font-size: 4em;
+    display: inline-block;
+    transform: skew(-10deg) rotate(-5deg);
+}
+
+
+.botao-index {
+    font-size: 1.25em;
+    background-color: #851944;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid black;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 1em #000, inset 0 0 1em #FFF;
+}
+
+.secao-inicio {
+    padding: 2em;
+}
+
+.secao-inicio h2 {
+    font-size: 3em;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
+
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+    background-image: linear-gradient(135deg, 
+        transparent,
+        transparent 14px,
+        rgba(0,0,0,0.2) 14px, 
+        rgba(0,0,0,0.2) 14px, 
+        transparent 15px, 
+        transparent);
+    background-size: 20px 20px;
+    background-repeat: repeat;
+}
+
+.trabalhos h2 {
+    color: #FFF;
+}
+
+.trabalhos ul {
+    overflow: hidden;
+    border: .5em solid black;
+}
+
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+
+.blog {
+    position: relative;
+    background-color: #999;
+    color: #FFF;
+    border-bottom: .5em solid #851944;
+    background-image: linear-gradient(-135deg, 
+        transparent,
+        transparent 14px,
+        rgba(0,0,0,0.2) 14px, 
+        rgba(0,0,0,0.2) 14px, 
+        transparent 15px, 
+        transparent);
+    background-size: 20px 20px;
+    background-repeat: repeat;
+}
+
+.blog small {
+    position: relative;
+    top: -2em;
+}
+
+.blog li a {
+    width: 50ch;
+    padding: 0.5em;
+    display: block;
+    margin-right: auto;
+}
+
+.post-begin{
+    color: #000;
+    background-color: #F2FFFC;
+    position: absolute;
+    top: 10em;
+    right: 3em;
+    height: 6em;
+    padding: 1em;
+    font-size: 90%;
+}
+
+.last-post{
+    background-color: #F2FFFC;
+}
+
+.lista-blog{
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    position: relative;
+}
+
+header h1{
+    text-align: center;
+    color: #FFF;
+}
+
+
+body{
+    perspective: 6px;
+    perspective-origin: 50% 160px;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+
+footer h2 {
+    font-size: 3em;
+}
+
+footer a {
+    color: #F99;
+}
+
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}

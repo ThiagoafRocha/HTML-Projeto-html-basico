@@ -1,0 +1,172 @@
+html{
+	font-size: 100%;
+}
+
+.container{
+	line-height: 1.5;
+	padding: 30px 0;
+	width: 720px;
+	margin: auto;
+}
+
+main{
+	float: left;
+	width: 80%;
+}
+
+body {
+	margin: auto;
+	background-color: #F2FFFC;
+}
+
+.title{
+	font-size: 3rem;
+	background-color: #851944;
+	font-family: "Open Sans Condensed", sans-serif;
+	text-align: center;
+	color: rgba(255,255,255,0.7);
+	padding: 1.5rem;
+	border-bottom: 0.5rem solid #000;
+	text-transform: uppercase;
+	margin-top: 0px;
+}
+
+.subtitle{
+	font-size: 25x;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #EFD087;
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	clear: both;
+}
+
+p{
+	text-align: justify;
+	padding-bottom: 20px;
+	margin: 1rem 0;
+	font-family: sans-serif;
+}
+
+blockquote{
+	padding: 1em;
+	background-color: #D9E5E3;
+	border: 0.5em solid #C2CACA;
+	margin: 1em 2em;
+	width: 30ch;
+	box-sizing: border-box;
+}
+
+.cite-fiat{
+	float: right;
+}
+
+.cite-petrobras{
+	float: left;
+}
+
+.fotoeu{
+	width: 300px;
+	float: right;
+	border-left: 0.5rem solid #000;
+	border-bottom: 0.5rem solid #000;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	box-sizing: border-box;
+}
+
+aside {
+	float: right;
+	text-align: center;
+	background-color: #3C1D3D;
+	padding: 1.25rem;
+	border-bottom: 0.5rem solid #000;
+	border-left: 0.5rem solid #000;
+	border-right: 0.5rem solid #000;
+	position: relative;
+	top: 300px;
+	right: 0px;
+	box-sizing: border-box;
+	padding-left: 30px;
+}
+
+.nav-title{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-bottom: 1.25rem;
+	color: #FFF;
+}
+
+.navigation{
+	line-height: 1.5rem;
+	font-size: 1.25rem;
+	margin-bottom: 1.5rem;
+	text-transform: uppercase;
+}
+
+.navigation ul{
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+.navigation li{
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	margin: auto;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+/*Links sociais*/
+.social-link{
+	padding-left: 0px;
+}
+
+.social-link li{
+	display: inline-block;
+}
+
+.social-link a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	text-indent: -99999px;
+}
+
+.twitter{
+	background-image: url(../pics/twitter.png);
+}
+
+.linkedin{
+	background-image: url(../pics/linkedin.png);
+}
+
+.github{
+	background-image: url(../pics/github.png);
+}
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	clear: both;
+	color: #86FFFF;
+	padding: 0.75rem;
+	width: 100%;
+	height: 0.5rem;
+	background-image: radial-gradient(ellipse at left bottom, 
+		rgba(60, 29, 61, 0.8),
+		rgba(60, 29, 61, 0.8) 65%,
+		black 65%,
+		black 70%,
+		transparent 70%,
+		transparent);
+	background-size: 25% 100%;
+	background-repeat: no-repeat;
+
+}
+
